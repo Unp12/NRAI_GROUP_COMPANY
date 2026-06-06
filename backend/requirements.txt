@@ -1,7 +1,8 @@
 fastapi
 uvicorn
+chromadb
 langchain
 langchain-community
-langchain-ollama
-chromadb
+langchain-chroma
 pypdf
+python-dotenv
