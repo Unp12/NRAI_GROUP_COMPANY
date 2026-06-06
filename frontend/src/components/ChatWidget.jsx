@@ -60,7 +60,7 @@ export default function ChatWidget() {
 
     try {
       // Dynamic API URL: Prioritizes Vercel environment variables, falls back to Render production URL for mobile/global access
-      const baseUrl = import.meta.env.VITE_API_URL || "https://nrai-group-company.onrender.com";
+      const baseUrl = import.meta.env.REACT_API_URL || "https://nrai-group-company.onrender.com";
       
       const response = await fetch(`${baseUrl}/query`, {
         method: "POST",
