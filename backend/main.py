@@ -11,7 +11,7 @@ app = FastAPI(title="NRAI Enterprise RAG API")
 # Add your Vercel URL here
 origins = [
     "https://your-project-name.vercel.app", 
-    "http://localhost:5173", # for local testing
+    "https://nrai-group-company.onrender.com", # for local testing
 ]
 
 # CORS
