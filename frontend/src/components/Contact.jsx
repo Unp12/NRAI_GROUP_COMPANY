@@ -87,7 +87,8 @@ export default function Contact() {
       <div className="w-full h-[400px] border-t border-slate-800 grayscale invert opacity-80 hover:grayscale-0 hover:invert-0 hover:opacity-100 transition-all duration-700">
         <iframe 
           title="NR Aquafront Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5830206121853!2d77.61276221532053!3d12.934484019188046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e59035f63%3A0x6b3b5550a7c4f1c4!2sBTM%20Layout%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+          // Corrected Google Maps Embed Link
+          src="https://maps.google.com/maps?q=NR+Aqua+Front,+Tank+Shore+Rd,+BTM+Layout,+Bengaluru,+Karnataka&t=&z=15&ie=UTF8&iwloc=&output=embed" 
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 

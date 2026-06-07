@@ -8,6 +8,8 @@ export default function Navbar() {
     { name: 'Home', href: '#home' },
     { name: 'Our Businesses', href: '#businesses' },
     { name: 'About', href: '#about' },
+    // Added the Leadership link pointing to the Founders section ID
+    { name: 'Leadership Team', href: '#founders' }, 
     { name: 'Contact', href: '#contact' }
   ];
 

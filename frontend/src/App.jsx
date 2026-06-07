@@ -6,6 +6,7 @@ import Businesses from './components/Businesses';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ChatWidget from './components/ChatWidget'; // <-- Import added
+import FoundersSection from './components/FoundersSection';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Hero />
         <Businesses />
         <About />
+        <FoundersSection />
         <Contact />
       </main>
       <Footer />
